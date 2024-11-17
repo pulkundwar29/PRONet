@@ -1,7 +1,7 @@
 # PRONet - Alzheimer's Disease Detection Using Deep Learning
 
 ## Overview
-This project implements a deep learning-based system for detecting and classifying different stages of Alzheimer's Disease using brain MRI scans. The system can classify images into four categories:
+This project implements a novel CNN model **PRONet** for detecting and classifying different stages of Alzheimer's Disease using brain MRI scans. The system can classify images into four categories:
 - Non Demented
 - Mild Demented
 - Moderate Demented
@@ -12,6 +12,8 @@ This project implements a deep learning-based system for detecting and classifyi
 - These models are developed keeping in mind the dataset's requirements, as well as to keep training and inferencing requirements low.
 - PRONet-10 achieved a near-perfect 0.988 test accuracy and 0.274 test loss.
 - PRONet-5 achieved an impressive 0.976 test accuracy and 0.261 test loss.
+
+![PRONet-10](pro10.jpg)
 
 ## Features
 - Real-time image classification using deep learning
@@ -31,6 +33,6 @@ This project implements a deep learning-based system for detecting and classifyi
 1. Clone the repository.
 2. Create and activate virtual environment.
 3. Install required packages from requirements.txt.
-4. Run the model training notebook "run2.
+4. Run the model training notebook "train_PRONet.ipynb"
 5. Run the streamlit application file **test.py**.
 6. Upload a file from one of the four classes and observe predicted output class.
