@@ -10,10 +10,13 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
 ## PRONet: Custom self-trained CNN models for Alzheimer's disease classification
 - This project introduces two new models: **PRONet-10** and **PRONet-5**, named according to their sizes.
 - These models are developed keeping in mind the dataset's requirements, as well as to keep training and inferencing requirements low.
-- PRONet-10 achieved a near-perfect 0.988 test accuracy and 0.274 test loss.
+- PRONet-10 (shown below) achieved a near-perfect 0.988 test accuracy and 0.274 test loss.
 - PRONet-5 achieved an impressive 0.976 test accuracy and 0.261 test loss.
 
-![PRONet-10](pro10.jpg)
+<div align="center">
+  <img src="pro10.jpg" alt="PRONet-10" width="600"/>
+  <p><em>Figure 1: PRONet-10 Architecture</em></p>
+</div>
 
 ## Features
 - Real-time image classification using deep learning
