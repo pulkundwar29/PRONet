@@ -47,7 +47,8 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the model training notebook "train_PRONet.ipynb"
+4. Download the dataset from the link: https://drive.google.com/file/d/1ctMe30lw7An7-Dlvii_Wp6r6j5s9j68t/view?usp=sharing. Save it in the main directory.
+5. Run the model training notebook "train_PRONet.ipynb"
    ```bash
    # Execute cells to obtain tm41a.h5 as the trained model file for PRONet-10,
    # and tm32.h5 for PRONet-5.
@@ -57,4 +58,4 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
    ```bash
    python test.py
    ```
-8. Upload a file from one of the four classes and observe predicted output class.
+7. Upload a file from one of the four classes and observe predicted output class.
