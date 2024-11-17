@@ -23,7 +23,7 @@ Loss: `categorical_crossentropy`
 Epochs: `100`
 
 <div align="center">
-  <img src="pro10.jpg" alt="PRONet-10" width="600"/>
+  <img src="tm41a graph.png" alt="PRONet-10 graph" width="600"/>
   <p><em>Figure 1: Training and Validation Accuracy Plot for PRONet-10</em></p>
 </div>
 
@@ -70,6 +70,6 @@ Epochs: `100`
 7. Upload a file from one of the four classes and observe predicted output class.
 
 <div align="center">
-  <img src="result.jpg" alt="PRONet-10" width="600"/>
+  <img src="result.png" alt="UIpic" width="600"/>
   <p><em>Figure 3: Streamlit Application</em></p>
 </div>
