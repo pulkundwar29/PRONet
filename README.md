@@ -18,6 +18,15 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
   <p><em>Figure 1: PRONet-10 Architecture</em></p>
 </div>
 
+Optimizer: `sgd`
+Loss: `categorical_crossentropy`
+Epochs: `100`
+
+<div align="center">
+  <img src="pro10.jpg" alt="PRONet-10" width="600"/>
+  <p><em>Figure 1: Training and Validation Accuracy Plot for PRONet-10</em></p>
+</div>
+
 ## Features
 - Real-time image classification using deep learning
 - Web-based user interface for easy interaction
@@ -59,3 +68,8 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
    python test.py
    ```
 7. Upload a file from one of the four classes and observe predicted output class.
+
+<div align="center">
+  <img src="result.jpg" alt="PRONet-10" width="600"/>
+  <p><em>Figure 3: Streamlit Application</em></p>
+</div>
