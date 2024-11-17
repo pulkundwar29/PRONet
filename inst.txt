@@ -1,0 +1,3 @@
+41a: 4th trial of pronet1 using SGD
+41b: using adam
+41c: using RMSProp
