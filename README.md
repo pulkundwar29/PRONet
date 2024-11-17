@@ -34,8 +34,27 @@ This project implements a novel CNN model **PRONet** for detecting and classifyi
 ## Installation
 
 1. Clone the repository.
+   ```bash
+   git clone https://github.com/pulkundwar29/PRONet
+   cd PRONet
+   ```
 2. Create and activate virtual environment.
+   ```bash
+   venv env
+   env\scripts\activate
+   ```
 3. Install required packages from requirements.txt.
+   ```bash
+   pip install -r requirements.txt
+   ```
 4. Run the model training notebook "train_PRONet.ipynb"
-5. Run the streamlit application file **test.py**.
-6. Upload a file from one of the four classes and observe predicted output class.
+   ```bash
+   # Execute cells to obtain tm41a.h5 as the trained model file for PRONet-10,
+   # and tm32.h5 for PRONet-5.
+   # You can change output filenames as per your desire.
+   ```
+6. Run the streamlit application file **test.py**.
+   ```bash
+   python test.py
+   ```
+8. Upload a file from one of the four classes and observe predicted output class.
