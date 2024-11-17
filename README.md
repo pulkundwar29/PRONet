@@ -24,7 +24,7 @@ Epochs: `100`
 
 <div align="center">
   <img src="tm41a graph.png" alt="PRONet-10 graph" width="600"/>
-  <p><em>Figure 1: Training and Validation Accuracy Plot for PRONet-10</em></p>
+  <p><em>Figure 2: Training and Validation Accuracy Plot for PRONet-10</em></p>
 </div>
 
 ## Features
