@@ -31,5 +31,6 @@ This project implements a deep learning-based system for detecting and classifyi
 1. Clone the repository.
 2. Create and activate virtual environment.
 3. Install required packages from requirements.txt.
-4. Run the streamlit application file **test.py**.
-5. Upload a file from one of the four classes and observe predicted output class.
+4. Run the model training notebook "run2.
+5. Run the streamlit application file **test.py**.
+6. Upload a file from one of the four classes and observe predicted output class.
