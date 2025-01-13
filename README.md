@@ -1,7 +1,7 @@
 # PRONet - Alzheimer's Disease Detection 
 
 ## Overview
-This project implements a novel CNN model **PRONet** for detecting and classifying different stages of Alzheimer's Disease using brain MRI scans. The system can classify images into four categories:
+This project implements two novel CNN models **PRONet** for detecting and classifying different stages of Alzheimer's Disease using brain MRI scans. The system can classify images into four categories:
 - Non Demented
 - Mild Demented
 - Moderate Demented
